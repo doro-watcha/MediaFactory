@@ -9,7 +9,7 @@ object ThumbnailFactory {
         val mediaMetadataRetriever = MediaMetadataRetriever()
         mediaMetadataRetriever.setDataSource(path)
 
-        return mediaMetadataRetriever.getFrameAtTime(position)
+        return mediaMetadataRetriever.getFrameAtTime(position * 1000)
     }
 
 }
