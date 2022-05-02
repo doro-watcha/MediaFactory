@@ -14,3 +14,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MediaFacotry"
 include ':app'
+include ':video'
+include ':image'
+include ':core'
